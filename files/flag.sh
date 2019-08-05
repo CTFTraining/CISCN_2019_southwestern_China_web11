@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env sh
 
-echo "<?php \$flag='"$FLAG"';" >> /flag
+echo '<?php $flag="'$FLAG'";' >> /flag
 
 export FLAG=not_flag
 FLAG=not_flag

